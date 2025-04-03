@@ -1,0 +1,17 @@
+[project]
+name = "lab3"
+version = "0.1.0"
+description = "Phys 601 Lab 3 - Error"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy>=2.2.2",
+    "pyerrorprop>=3.1.2",
+    "pytest>=8.3.4",
+    "spyder-kernels==3.0.*",
+]
+
+[dependency-groups]
+dev = [
+    "cram>=0.7",
+]
